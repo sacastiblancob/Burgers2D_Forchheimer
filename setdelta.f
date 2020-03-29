@@ -22,17 +22,7 @@
 	real,dimension(nsg),intent(in) :: rho
 	real,dimension(nsg),intent(out) :: BG
 ! 	Local Variables
-!	Variables for reading viscosity from file parameters
-	real, dimension(5) :: parameters
-	real :: nu
-
-	open(unit=101, file='parameters.txt', status='old', action='read')
-	read(101,*) parameters
-	close(101)
-
-	nu = parameters(1)
-!	write(*,*) nu
-
+	
 	if (t == 1) then
 	
 	     delta = nu * dT / 1.0

@@ -14,17 +14,4 @@ Antonio Preziosi Ribero
 
 170420 - Initial push of the program with functions
 
-With Forchheimer parameters taking into account, you DON'T need to compile everything everytime,
-you should just change the parameters.txt file. The order of the parameters is:
-Viscosity
-Alfa u
-Alfa w
-Beta u
-Beta w
-
-Alfa is the first order Forchheimer, and Beta is the second order Frochheimer corresponding to
-velocities U and W.
-
-Sergio Castiblanco
-
 
