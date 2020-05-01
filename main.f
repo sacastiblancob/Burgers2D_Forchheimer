@@ -310,7 +310,7 @@
 	    ff = ff + 1.0
 	    fn = fn + 1
 		call output2(fn,u,w,erru,errw)
-!		call output3(fn,velocidades,bu,bw)
+		call output3(fn,velocidades,bu,bw)
 !		Escribir velocidad vertical!		
 !		write(*,*) w
 ! 	    call error(t,u,w,ue,ve,Linfu,Linfw)

@@ -15,7 +15,7 @@
 	integer, parameter :: n = 5
 	
 ! (* 	2. Number of subd in X direction  *)
-	integer, parameter :: nsubx = 20
+	integer, parameter :: nsubx = 30
 	
 ! (* 	3. Number of subd in Z direction  *)
 	integer, parameter :: nsubz = 10

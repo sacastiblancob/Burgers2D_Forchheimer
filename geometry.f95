@@ -10,11 +10,11 @@
 !	Diciembre 2016 (version ok 1 dic/2016)
 ! 	=======================================================================
 
-	real, parameter :: x = 40
+	real, parameter :: x = 60
 	real, parameter :: z = 0.0
 	real, parameter :: x0 = 0.0
-	real, parameter :: z0 =  -20
-	integer, parameter :: nx = 20 ! Pone el numero de subdominios en x
+	real, parameter :: z0 =  -28.0
+	integer, parameter :: nx = 30 ! Pone el numero de subdominios en x
 	integer, parameter :: nz = 10 ! Pone el numero de subdominios en z
 	integer, parameter :: numsub=nx*nz
 	integer, dimension(numsub,4) :: C
@@ -23,7 +23,7 @@
 	real, dimension(nz + 1):: pz 
 	open(10,file='PruebaGeom.dat')
 
-	pz = (/ -20.,-18.75,-17.5,-15.,-10.,-5.,-2.5,-1.25,-0.625,-0.3125,0. /)
+	pz = (/ -28.,-25.5,-20.5,-15.,-10.,-5.,-2.5,-1.25,-0.625,-0.3125,0. /)
 	dx=(x - x0) / nx ! Cambiado por diferencia entre xmax y xmin
 !	Este pedazo de dz se quita porque es el que voy a volver variable, el 
 !	dx va a ser constante para los casos que estoy analizando
