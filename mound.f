@@ -11,7 +11,7 @@
 	save
 	
 ! 	1. Viscosity (unidades cgs)
-	real, parameter :: nu = 0.0114 * 1000 !8.8936 (original)
+!	real, parameter :: nu = 0.0114 * 1000 !8.8936 (original) sergio (readed from file)
 
 ! 	2. Gravity (unidades cgs)
 	real, parameter :: g = 981
